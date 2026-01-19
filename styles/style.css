@@ -226,26 +226,26 @@ header{
     margin: 0 auto;
 }
 .service-container h1{
-    width: 1200px;
-    height: 58px;
+    width: 75%px;
+    max-width: 1200px;
+    height: 150px;
     color: #ffffff;
     font-size: 48px;
     font-weight: bold;
+
     margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 40px;  
-    /* margin-top: 120px; */
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:end;
 }
 .service-card{
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr) 273px;
-    width: 1200px;
+    width: 75%;
+    max-width: 1200px;
     height: 777px;
     margin: 0 auto;
 }
