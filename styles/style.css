@@ -78,7 +78,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: auto auto;
+    margin: 0 auto;
 }
 .banner-container .banner{
     max-width: 550px;
@@ -160,6 +160,9 @@ header{
     height: 650px;
     background-color: #1A0B2E;
     /* max-width: 1600px; */
+
+    justify-content: center;
+    margin: 0 auto;
 }
 .podcast-info{
     justify-content: space-between;
@@ -207,7 +210,87 @@ header{
 .podcast-number h1{
     font-size: 48px;
     font-weight:bold;
-    font-size: 48px;
-    font-weight:bold;
     color: #00ff88;
 }
+
+
+
+/* service section design */
+.service-container{
+    width: 100%;
+    /* max-width: 1600px; */
+    height: 1115px;
+    background-color: rgba(35, 14, 61, 1);
+
+    justify-content: center;
+    margin: 0 auto;
+}
+.service-container h1{
+    width: 1200px;
+    height: 58px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 40px;  
+    /* margin-top: 120px; */
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-card{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) 273px;
+    width: 1200px;
+    height: 777px;
+    margin: 0 auto;
+}
+.card{
+    background-color: rgba(53, 17, 101, 0.4);
+    align-content: center;
+    padding: 40px;
+}
+#audio{
+    grid-row: span 2;
+    border-radius: 40px;
+}
+#mobile{
+    grid-column: span 2;
+    border-radius: 40px;
+}
+#global{
+    grid-column: span 2;
+    border-radius: 40px;
+}
+#interview{
+    grid-column: span 2;
+    border-radius: 40px;
+}
+#resource{
+    grid-column: span 1;
+    border-radius: 40px;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight:bold;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.card-info{
+    font-size: 16px;
+    color: #ffffff91;
+    line-height: 24px;
+}
+#interview img{
+    width: 50px;
+}
+
+
+
+/* episode section design */
