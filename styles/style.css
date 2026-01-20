@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 
 /* header design */
-header{
+header {
     background-color: #1A0B2E;
     width: 100%;
     /* max-width: 1600px; */
@@ -17,7 +17,7 @@ header{
     align-content: center;
     margin: 0 auto;
 }
-#nav-container{
+#nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,26 +25,26 @@ header{
     max-width: 1200px;
     margin: 0 auto;
 }
-.nav-logo{
+.nav-logo {
     font-weight: bold;
     font-size: 35px;
     color: #ffffff;
     font-weight: 600px;
 }
-.nav-logo span{
+.nav-logo span {
     color: #A60295;
 }
-.nav-menu{
+.nav-menu {
     display: flex;
     gap: 32px;
 }
-.nav-menu p{
+.nav-menu p {
     font-size: 16px;
     line-height: 120%;
     color: #ffffff;
     font-weight: 500px;
 }
-.nav-btn{
+.nav-btn {
     width: 135px;
     color: #ffffff;
     font-size: 16px;
@@ -57,16 +57,17 @@ header{
     border: none;
 }
 
-/* body hr{
+/* body .hr{
     border: none;
-    border-top: 3px dotted #ffffff26;
-    width: 75%;
-    margin: 0 auto;
-   
-} */
+    border-top: 3px dotted rgba(255, 255, 255, 0.332);
+    width: 100%;
+    margin: 0 auto;  
+}  */
+
+
 
 /* banner design */
-.banner-container{
+.banner-container {
     background-image: url(../Images/hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -80,53 +81,52 @@ header{
     text-align: center;
     margin: 0 auto;
 }
-.banner-container .banner{
+.banner-container .banner {
     max-width: 550px;
     height: 558px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.banner-logo{
+.banner-logo {
     width: 350px;
     height: 350px;
-    background-image: url(../Images/hero-circle.png); 
+    background-image: url(../Images/hero-circle.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     /* display: flex;
-    /* justify-content: center; */ 
+    /* justify-content: center; */
     margin: 0 auto;
     align-items: center;
 }
-#microphone{
+#microphone {
     margin-top: 70px;
 }
-
-.banner h1{
+.banner h1 {
     font-size: 60px;
-    font-weight:800px;
+    font-weight: 800px;
     color: #ffffff;
     margin-top: 40px;
 }
-.banner p{
+.banner p {
     font-size: 16px;
     color: #ffffff7e;
     margin-top: 8px;
     margin-bottom: 24px;
 }
-.banner-info .btn-container{
+.banner-info .btn-container {
     display: flex;
     justify-content: center;
     gap: 8px;
 }
-#shopify{
+#shopify {
     font-size: 16px;
     font-weight: 600px;
     width: 201px;
     height: 44px;
     color: #ffffff;
-    background-color:  #A60295;
+    background-color: #A60295;
     padding: 12px 20px;
     border-radius: 20px;
     border: none;
@@ -135,7 +135,7 @@ header{
     align-items: center;
     gap: 8px;
 }
-#message{
+#message {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,8 +154,7 @@ header{
 
 
 /* podcast-section design */
-
-.podcast-container{
+.podcast-container {
     width: 100%;
     height: 650px;
     background-color: #1A0B2E;
@@ -164,7 +163,7 @@ header{
     justify-content: center;
     margin: 0 auto;
 }
-.podcast-info{
+.podcast-info {
     justify-content: space-between;
     align-content: center;
     text-align: center;
@@ -175,26 +174,27 @@ header{
     margin-bottom: 80px;
     /* margin-top: 50px; */
 }
- .podcast-info h1{
+.podcast-info h1 {
     font-size: 48px;
-    font-weight:bold;
+    font-weight: bold;
     color: #ffffff;
     margin-bottom: 30px;
     line-height: 30px;
 }
-.podcast-info p, .podcast-number p{
+.podcast-info p,
+.podcast-number p {
     font-size: 16px;
     color: #ffffff7e;
-    margin-bottom: 24px; 
+    margin-bottom: 24px;
     line-height: 20px;
-} 
-.podcast-container hr{
+}
+.podcast-container hr {
     border: none;
     border-top: 3px dotted #ffffff26;
     width: 75%;
     margin: 0 auto;
 }
-.podcast-number{
+.podcast-number {
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
@@ -207,16 +207,16 @@ header{
     height: 94px;
 
 }
-.podcast-number h1{
+.podcast-number h1 {
     font-size: 48px;
-    font-weight:bold;
+    font-weight: bold;
     color: #00ff88;
 }
 
 
 
 /* service section design */
-.service-container{
+.service-container {
     width: 100%;
     /* max-width: 1600px; */
     height: 1115px;
@@ -225,7 +225,7 @@ header{
     justify-content: center;
     margin: 0 auto;
 }
-.service-container h1{
+.service-container h1 {
     width: 75%px;
     max-width: 1200px;
     height: 150px;
@@ -237,9 +237,9 @@ header{
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
-    align-items:end;
+    align-items: end;
 }
-.service-card{
+.service-card {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
@@ -249,48 +249,209 @@ header{
     height: 777px;
     margin: 0 auto;
 }
-.card{
+.service-card .card {
     background-color: rgba(53, 17, 101, 0.4);
     align-content: center;
     padding: 40px;
 }
-#audio{
+
+#audio {
     grid-row: span 2;
     border-radius: 40px;
 }
-#mobile{
+#mobile {
     grid-column: span 2;
     border-radius: 40px;
 }
-#global{
+#global {
     grid-column: span 2;
     border-radius: 40px;
 }
-#interview{
+#interview {
     grid-column: span 2;
     border-radius: 40px;
 }
-#resource{
+#resource {
     grid-column: span 1;
     border-radius: 40px;
 }
-
-.card-title{
+.card-title {
     font-size: 24px;
-    font-weight:bold;
+    font-weight: bold;
     color: #ffffff;
     margin-top: 16px;
     margin-bottom: 16px;
 }
-.card-info{
+
+.card-info,
+.episode-card-info,
+.alex-info p,
+.podcast-icons p,
+.footer-info p {
     font-size: 16px;
-    color: #ffffff91;
+    color: #ffffff82;
     line-height: 24px;
 }
-#interview img{
+#interview img {
     width: 50px;
 }
 
 
 
+
 /* episode section design */
+.episode-container {
+    width: 100%;
+    /* max-width: 1600px; */
+    margin: 0 auto;
+    height: 1276px;
+    padding-top: 120px;
+    background-color: #1A0B2E;
+}
+.episode {
+    width: 75%;
+    max-width: 1200px;
+    height: 545px;
+    margin: 0 auto;
+}
+.episode-title h2,
+.host h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+.episode-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.episode-card-container .episode-card {
+    width: 380px;
+    height: 440px;
+    border-radius: 20px;
+    background-color: rgba(37, 13, 68, 1);
+    /* border: 3px solid tomato; */
+
+}
+.episode-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+.episode-card-info {
+    padding: 0 20px;
+}
+.time {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00ff88;
+    line-height: 24px;
+    padding: 2px 24px;
+}
+.time img {
+    padding-top: 5px;
+}
+iframe {
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+/* host section design */
+.episode-container .host {
+    padding-top: 120px;
+}
+.alex-kumar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    width: 1200px;
+    height: 280px;
+    border-radius: 20px;
+    background-color: rgba(53, 17, 101, 0.4);
+    /* border: 3px solid tomato; */
+}
+.alex-kumar-img {
+    padding-left: 40px;
+    padding-right: 24px;
+}
+.alex-info h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.alex-info p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.media-icons {
+    display: flex;
+    gap: 8px;
+    width: 184px;
+    height: 40px;
+}
+.icon-div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 20px;
+}
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    /* max-width: 1600px; */
+    height: 412px;
+    padding: 120px;
+    background-image: url(../Images/footer-bg.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.footer-info{
+    width: 85%;
+    max-width: 1360px;
+    height: 178px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid tomato; */
+}
+footer h1{
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 28px;
+    color: #ffffff;
+}
+footer h1 span{
+    color: #A60295;
+}
+.podcast-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+.podcast-icons p{
+    font-weight: 500;
+}
+.podcast-icons img{
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
